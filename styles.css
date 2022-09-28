@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {
+    background-color: #0F1014; /*Background color of the page*/
+}
+
+body hr { /* Horizontal line after the navigation header */
+    opacity: 0.29; /* Alpha */
+	color: antiquewhite; 
+}
+
+nav {
+    display: flex;
+    align-item: center;
+	padding: 30px 30px 20px 60px;
+}
+
+nav .menu-logo{ /* You need a space between nav and .menu-logo*/
+	width: 200px;
+	height: 60px;
+	cursor: pointer; /* When you hover over, the cursor changes to pointing finger */
+}
+
+
+nav ul{
+	flex: 1;
+	text-align: Left;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px; /* Margin top and bottom 0, right and left 20px */
+}
+
+nav ul li a {
+	text-decoration: none; /* Removes line underneath link*/
+	color: whitesmoke; 
+	font-size: 25px;
+	font-family: 'Cambria', 'Hoefler Text', 'Liberation Serif', 'Times New Roman', 'serif'; /* Extra fonts for backup*/
+}
+.container{
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+.container .dll-logo{
+	width: 250px;
+	height: 250px;
+	cursor: pointer;
+	float: left;
+}
+
+
+
+
+/* Entry is going to be the summary in the home page */
+.entry {
+	display: block; /* might be better to keep it blodk for a new line */
+	color: whitesmoke;
+	font-size: 18px;
+	font-family: 'Cambria', 'Hoefler Text', 'Liberation Serif', 'Times New Roman', 'serif'; /* Extra fonts for backup*/
+}
+
+/* Footer specific shit */
+#footer ul li {
+	display: inline-block; /* This makes the list go horizontally, if you used block there will be a new line after each list*/
+	list-style: none; /* A numbered list, roman numerals etc */
+	margin: 0px 5px; /* Spacing between the words in the lists */
+}
+#footer ul li a {
+	text-decoration: none; /* Removes line underneath href link */
+}
+#footer {
+	display: block; /* Block will insert a new line/block */
+	text-align: center; /* Align the center to center */
+	font-size: 18px; /* I want all text inside the div to be 18px */
+}
+
+
+
+
+
